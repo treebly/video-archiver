@@ -1,0 +1,5 @@
+*.log*
+download archive.txt
+channels.txt
+.DS_STORE
+*/
