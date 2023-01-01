@@ -2,9 +2,9 @@
 set -e
 
 shortcuts run "Get Download IDs"
-if [[ ! -e ids.txt ]]; then
+if [[ ! -e $1 ]]; then
 	exit 0
 fi
-./archive.py -n --log-path other.log -f ids.txt
-shortcuts run "Clear Download IDs" -i ids.txt
-rm ids.txt
+./archive.py -n --log-path other.log -f $1
+shortcuts run "Clear Download IDs" -i $1
+rm $1

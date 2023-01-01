@@ -65,5 +65,6 @@ Included along with the script are two additional components that I find useful.
 `Archives.hazelrules` is a pair of rules for the excellent Mac utility [Hazel](https://www.noodlesoft.com) that I use for keeping my `Archives` directory organized.
 
 `oneoffs.sh` is a shell script that enables me to automatically download videos that I save to my watch later list in the app [Play](https://apps.apple.com/us/app/play-save-videos-watch-later/id1596506190). When run, it saves the IDs of any videos that are tagged with `Download`, downloads them, and then removes them from the watch later queue. To interface with Play it relies on two Shortcuts, which you can get here:
-- [Get Download IDs](https://www.icloud.com/shortcuts/7ee52b9415bc41758924e7eb8b57de99)
+- [Get Download IDs](https://www.icloud.com/shortcuts/90914ac81a554ec682077cf298375954)
 - [Clear Download IDs](https://www.icloud.com/shortcuts/88565a9fda414493a0470ee9eb2e9d8c)
+You'll need to pass a temporary file path to the script, and configure the first shortcut to use that same path.
