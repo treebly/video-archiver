@@ -1,5 +1,5 @@
 # Video Archiver
-A python script for building your own personal little archive of internet videos, built on the back of ~~youtube-dl~~ yt-dlp. Designed for YouTube, but should work with any popular video sharing site.
+A python script for building your own personal little archive of internet videos, built on the back of [~~youtube-dl~~](https://github.com/ytdl-org/youtube-dl) [yt-dlp](https://github.com/yt-dlp/yt-dlp). Designed for YouTube, but should work with any popular video sharing site.
 
 ## Dependencies
 - Python 3 with the following packages
@@ -57,7 +57,7 @@ All the options that the script supports can be seen by running:
 ```
 ./archive.py --help
 ```
-For more details on how I run my setup, check out my [blog post](https://treeb.net/2022/12/17/youtube-archiver).
+For more details on how I run my setup, check out my [blog post](https://treeb.net/2023/01/01/building-a-youtube-archive-system/).
 
 ## Add-ons
 Included along with the script are two additional components that I find useful.
